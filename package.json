@@ -1,0 +1,36 @@
+{
+  "name": "redux-electron-store-example",
+  "version": "1.0.0",
+  "description": "This application uses redux-electron-store for store sync and communication instead od IPC calls. ",
+  "main": "bootstrap.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && electron ."
+  },
+  "author": "Anuj Verma",
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-electron-store": "^0.3.13",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "electron": "^1.3.4",
+    "webpack": "^1.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  }
+}
